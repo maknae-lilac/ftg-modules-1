@@ -16,7 +16,7 @@ def register(cb):
 @loader.tds
 class SPFMod(loader.Module):
     """Этот модуль геи личку ваших друзей"""
-    strings = {"name": "ЖУЖАКА НАХУЙ"}
+    strings = {"name": "Царь горы"}
 
     def __init__(self):
         self.name = self.strings["name"]
@@ -34,4 +34,4 @@ class SPFMod(loader.Module):
         conv = message.client.conversation("t.me/" + who,
                                                            timeout=5, exclusive=True)
         for i in range(100):
-            await conv.send_message("Ты гей")
+            await conv.send_message("Привет, предлогаю сыграть в Царь горы 🤑         Вход 100грн~~~~Выход 400грн")
